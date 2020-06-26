@@ -1,0 +1,37 @@
+{
+  "name": "adapt-authoring",
+  "version": "0.11.0",
+  "description": "A server-based user interface for authoring eLearning courses using the Adapt Framework.",
+  "homepage": "https://github.com/adapt-security/adapt-authoring",
+  "license": "GPL-3.0",
+  "repository": "github:adapt-security/adapt-authoring",
+  "scripts": {
+    "debug": "node --inspect bin/cli start",
+    "debug-brk": "node --inspect-brk bin/cli start",
+    "docs": "node bin/cli docs",
+    "generate-config": "node bin/cli generate-config",
+    "lint": "node bin/cli lint",
+    "start": "node bin/cli start",
+    "test": "node bin/cli test"
+  },
+  "dependencies": {
+    "adapt-authoring-api": "github:adapt-security/adapt-authoring-api",
+    "adapt-authoring-auth": "github:adapt-security/adapt-authoring-auth",
+    "adapt-authoring-config": "github:adapt-security/adapt-authoring-config",
+    "adapt-authoring-core": "github:adapt-security/adapt-authoring-core",
+    "adapt-authoring-jsonschema": "github:adapt-security/adapt-authoring-jsonschema",
+    "adapt-authoring-lang": "github:adapt-security/adapt-authoring-lang",
+    "adapt-authoring-logger": "github:adapt-security/adapt-authoring-logger",
+    "adapt-authoring-middleware": "github:adapt-security/adapt-authoring-middleware",
+    "adapt-authoring-mongodb": "github:adapt-security/adapt-authoring-mongodb",
+    "adapt-authoring-server": "github:adapt-security/adapt-authoring-server"
+  },
+  "devDependencies": {
+    "adapt-authoring-docs": "github:adapt-security/adapt-authoring-docs",
+    "adapt-authoring-lint": "github:adapt-security/adapt-authoring-lint",
+    "adapt-authoring-testing": "github:adapt-security/adapt-authoring-testing"
+  },
+  "engines": {
+    "node": "12.x"
+  }
+}

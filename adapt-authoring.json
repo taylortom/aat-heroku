@@ -1,0 +1,12 @@
+{
+  "module": false,
+  "documentation": {
+    "enable": true
+  },
+  "essentialApis": [
+    "config",
+    "lang",
+    "logger"
+  ],
+  "framework": "5"
+}
