@@ -1,9 +1,4 @@
-const port = process.env.PORT;
 const uri = process.env.MONGODB_URI;
-
-if(port) {
-  process.env.ADAPT_AUTHORING_SERVER__port = Number(port);
-}
 if(uri) {
   const [userDetails,rest] = uri.slice(10).split('@');
   const [username,password] = userDetails.split(':');
