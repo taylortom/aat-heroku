@@ -74,6 +74,7 @@ module.exports = {
     "defaultRoles": ["authduser"]
   },
   "adapt-authoring-server": {
+    "port": process.env.PORT,
     "logStackOnError": true
   }
 };
